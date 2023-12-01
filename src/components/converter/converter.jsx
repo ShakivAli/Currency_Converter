@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./index.css";
 
-const url = "https://api.apilayer.com/fixer/latest?base=USD&apikey=TMHgrVXe6p9sCDpSJprW8bymKJo82eiY";
+const url = "http://data.fixer.io/api/latest?access_key=b61aad9a658b2f43078a5d9f6cde2d58";
 
 const Converter = () => {
 
@@ -87,11 +87,11 @@ const Converter = () => {
             </div>
 
             <div className="result">
-                <p>{convertedValue.toFixed(2)} {selectedSecondCurrency}</p>
+                <p>{convertedValue.toFixed(2)}{selectedSecondCurrency}</p>
             </div>
             
             <div className="lastupdated">
-                <p><i>Last Updated on</i>{value.date}</p>
+                <p><i>Last Updated on {value.date}</i></p>
             </div>
 
         </div>
