@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# Currency Converter App
+
+This is a simple currency converter app built with React that allows users to convert currencies based on the latest exchange rates. The app fetches currency exchange rate data from the Fixer API and provides a user-friendly interface for currency conversion.
+
+## Features
+
+- **Input Amount**: Users can enter the amount they want to convert.
+
+- **Currency Selection**: Users can select the currencies they want to convert from and to using dropdown menus.
+
+- **Flip Currencies**: The app provides a button to quickly switch between the selected currencies.
+
+- **Conversion**: Users can click the "Convert" button to calculate and display the converted amount.
+
+- **Last Updated Information**: The app displays the date of the last update for the exchange rate data.
+
+## Components Used
+
+- **React Hooks (useState, useEffect)**: Used for managing state and handling side effects such as API data fetching.
+
+- **Fetch API**: Utilized the `fetch` function to retrieve exchange rate data from the Fixer API.
+
+- **React Components**: Divided the app into functional components for better organization and readability.
