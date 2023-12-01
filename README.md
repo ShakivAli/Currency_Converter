@@ -94,3 +94,5 @@ This is a simple currency converter app built with React that allows users to co
 - **Fetch API**: Utilized the `fetch` function to retrieve exchange rate data from the Fixer API.
 
 - **React Components**: Divided the app into functional components for better organization and readability.
+
+# Note : If it gives error in fetching, Please allow Insecure Content from your browser for this website.
