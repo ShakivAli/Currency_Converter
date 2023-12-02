@@ -21,3 +21,8 @@ h1 {
   justify-content: center;
   height: 100vh;
 }
+
+.footer {
+  margin-top: 50px;
+  color: white;
+}

@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./index.css";
 
-const url = "http://data.fixer.io/api/latest?access_key=b61aad9a658b2f43078a5d9f6cde2d58";
+// const url = "http://data.fixer.io/api/latest?access_key=b61aad9a658b2f43078a5d9f6cde2d58";
+const url = "";
 
 const Converter = () => {
 
